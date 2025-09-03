@@ -1,5 +1,7 @@
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;  // <-- Importar manejo de escenas
 
 public class UIManager : MonoBehaviour
 {
@@ -16,6 +18,17 @@ public class UIManager : MonoBehaviour
     public GameObject gameOverPanel;
     public TMP_Text finalScoreLoseText;
 
+    [Header("Botones Reinicio")]
+    public Button boton1;
+    public Button boton2;
+
+    void Start()
+    {
+        // Asignar función a los botones para reiniciar la escena
+        boton1.onClick.AddListener(ReiniciarEscena);
+        boton2.onClick.AddListener(ReiniciarEscena);
+    }
+
     public void SetWord(string word) => wordText.text = word;
     public void SetRound(int current, int total) => roundText.text = $"Ronda: {current}/{total}";
     public void SetScore(int score) => scoreText.text = $"Puntaje: {score}";
@@ -25,12 +38,18 @@ public class UIManager : MonoBehaviour
     public void ShowWin(int finalScore)
     {
         winPanel.SetActive(true);
-        if (finalScoreWinText != null) finalScoreWinText.text = $"¡Ganaste!\nPuntaje: {finalScore}";
+        if (finalScoreWinText != null) finalScoreWinText.text = $"Puntaje: {finalScore}";
     }
 
     public void ShowGameOver(int finalScore)
     {
         gameOverPanel.SetActive(true);
-        if (finalScoreLoseText != null) finalScoreLoseText.text = $"Game Over\nPuntaje: {finalScore}";
+        if (finalScoreLoseText != null) finalScoreLoseText.text = $"Puntaje: {finalScore}";
+    }
+
+    // Método para reiniciar la escena
+    public void ReiniciarEscena()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }

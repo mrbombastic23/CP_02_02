@@ -120,6 +120,9 @@ public class DragItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
 
         // poner como hijo de la dropZone y centrar
         transform.SetParent(dropZone, false); // false: no conservar world pos (queremos que se ajuste al dropZone)
+        rectTransform.anchorMin = new Vector2(0.5f, 0.5f);
+        rectTransform.anchorMax = new Vector2(0.5f, 0.5f);
+        rectTransform.pivot = new Vector2(0.7f, 1f);
         rectTransform.anchoredPosition = Vector2.zero;
         canvasGroup.blocksRaycasts = false; // ya no interactuable
     }
