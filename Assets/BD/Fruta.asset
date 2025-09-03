@@ -12,4 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 413dd4c179839d94a8e0125821a16b65, type: 3}
   m_Name: Fruta
   m_EditorClassIdentifier: 
-  items: []
+  items:
+  - {fileID: 11400000, guid: 710be64b01a3ff047a935d1e802dd020, type: 2}
+  - {fileID: 11400000, guid: 8992c7bd59e2b4c469b3a33f2abe331f, type: 2}
+  - {fileID: 11400000, guid: 424d7b3c755c0df49b757786c7f7cb08, type: 2}
+  - {fileID: 11400000, guid: 4e8f4118cff917445b099ee3a19bcb23, type: 2}
+  - {fileID: 11400000, guid: e24d0abd431fac94a9f65003cbaa0928, type: 2}
+  - {fileID: 11400000, guid: 0c386d3575f472244a88b7ced67cef6a, type: 2}
+  - {fileID: 11400000, guid: bc2b4522c37586647831ddabbf91d119, type: 2}

@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6feabf1a1c7271a40a77167b3fdcae50, type: 3}
   m_Name: genga
   m_EditorClassIdentifier: 
-  englishWord: 
-  sprite: {fileID: 0}
+  englishWord: gengar
+  sprite: {fileID: 1297515456, guid: fe601092a6fe04d4f83226ed94d5964c, type: 3}

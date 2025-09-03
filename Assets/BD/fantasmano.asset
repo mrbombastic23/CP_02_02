@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6feabf1a1c7271a40a77167b3fdcae50, type: 3}
   m_Name: fantasmano
   m_EditorClassIdentifier: 
-  englishWord: 
-  sprite: {fileID: 0}
+  englishWord: gasparin
+  sprite: {fileID: 1735869268, guid: c257148672dd68247a42e71214511fa5, type: 3}

@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6feabf1a1c7271a40a77167b3fdcae50, type: 3}
   m_Name: duolingo
   m_EditorClassIdentifier: 
-  englishWord: 
-  sprite: {fileID: 0}
+  englishWord: duolingo
+  sprite: {fileID: 220913958, guid: 60620c527a6d1ee4d809971a52053cac, type: 3}

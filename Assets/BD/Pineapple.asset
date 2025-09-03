@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6feabf1a1c7271a40a77167b3fdcae50, type: 3}
   m_Name: Pineapple
   m_EditorClassIdentifier: 
-  englishWord: 
-  sprite: {fileID: 0}
+  englishWord: "Pi\xF1ita"
+  sprite: {fileID: 21300000, guid: e8769d0dd4887664da06e8d4db198fbc, type: 3}
